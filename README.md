@@ -12,7 +12,7 @@ Creating Docker Image
 Run Docker Image
 -
 
-`docker run -p 8761:8761 -t spring-demo/eureka-server -h eureka.server.local --network spring-demo --name eureka.server.local`
+`docker run --publish 8761:8761 --hostname eureka-server --network spring-demo --name eureka-server -i -t spring-demo/eureka-server`
 
 The host is used by the services to discover the Eureka server
 
