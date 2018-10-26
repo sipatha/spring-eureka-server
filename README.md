@@ -16,3 +16,7 @@ Run Docker Image
 
 The host is used by the services to discover the Eureka server
 
+DepShield
+-
+
+[![DepShield Badge](https://depshield.sonatype.org/badges/n002213f/spring-eureka-server/depshield.svg)](https://depshield.github.io)
